@@ -26,7 +26,7 @@ function crearTablero () {
 //  let indexMeme = 1;
   let laberinto = document.getElementById('laberinto');
 
-  laberinto.innerHTML = '<div class="juego1"> GO--> </div>';
+  laberinto.innerHTML = '<div class="juego1"> </div>';
   laberinto.setAttribute('data-casillas-descubiertas', 0);
   
   matriz.forEach(fila => {  

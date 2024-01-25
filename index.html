@@ -11,38 +11,39 @@
 	<script type="text/javascript" src="eventos.js"></script>
 </head>
 <body>
-	<header class="flex-container">
-		<div class="reglas">
-			<img src="/img/Mnémosine-Owl.png" alt="">
-			<div class="texto">
-				<h1>MNEMÓSINE</h1>
-				<p> ¡BIENVENIDO A MNEMÓSINE!</p>
+	<main class="main">
+		<header class="flex-container">
+			<div class="reglas">
+				<img src="img/Mnémosine-Owl.png" alt="">
+				<div class="texto">
+					<h1>MNEMÓSINE</h1>
+					<p> ¡BIENVENIDO A MNEMÓSINE!</p>
+				</div>
+			</header>
+			<div class="mensaje">
+				<p>¡Debes encontrar la salida! Para ello da click en las casillas en busca del camino en verde, ¡memorízalo!</p>
 			</div>
-		</header>
-		<div class="mensaje">
-			<p>¡Debes encontrar la salida! Para ello da click en las casillas en busca del camino en verde ¡memorízalo!</p>
-		</div>
-		<div id="laberinto" class="laberinto" data-casillas-descubiertas="0">
+			<div id="laberinto" class="laberinto" data-casillas-descubiertas="0">
+				
+			</div>
 			
+			<audio id='audio'>
+				<source src="audios/lose-sound.mp3" type="audio/mpeg">
+			</audio>
+
+			<audio id='audio1'>
+				<source src="audios/good-way.mp3" type="audio/mpeg">
+			</audio>
+			
+			<audio id='audio2'>
+				<source src="audios/you-win.mp3" type="audio/mpeg">
+			</audio>
+
+			</div>
 		</div>
-		
-		<audio id='audio'>
-			<source src="audios/lose-sound.mp3" type="audio/mpeg">
-		</audio>
-
-		<audio id='audio1'>
-			<source src="audios/good-way.mp3" type="audio/mpeg">
-		</audio>
-		  
-		<audio id='audio2'>
-			<source src="audios/you-win.mp3" type="audio/mpeg">
-		</audio>
-
-		<footer class="footer">
-			<h3> MnemósineApp© by Bruno Rocha</h3>
-		</footer>
-
-		</div>
-	</div>
+	</main>
+	<footer class="footer">
+		<h3> MnemósineApp© by Bruno Rocha</h3>
+	</footer>
 </body>
 </html>

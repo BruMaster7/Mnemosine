@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Raleway, "Helvetica Neue", Helvetica, Arial;
+}
+
+body {
+	max-width: 100%;
+	background-color: #024059;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	padding-left: 15px;
+	letter-spacing: 2px;
+	padding-bottom: 15px;
+	font-size: 12px;
+}
+
+.reglas {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+	line-height: 15px;
+	color: #dfe8eb;
+}
+
+.reglas img {
+	max-width: 30%;
+}
+
+.texto {
+	max-width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.texto h1 {
+	font-size: 8vw;
+	margin: 0 0 10px 0;
+}
+
+.texto p {
+	margin-top: 10px;
+	font-size: 3vw;
+}
+
+.mensaje {
+	margin: 20px auto;
+	max-width: 90%;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #026873;
+	margin-top: 10px;
+}
+
+.mensaje p {
+	font-size: 3vw;
+	color: #dfe8eb;
+}
+
+.flex-conteiner {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	width: 100%;
+	gap: 55px;
+
+}
+
+
+.laberinto {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 3px;
+	grid-row-gap: 3px;
+	height: 800px;
+	max-width: 100%;
+	border: solid 1px #000;
+}
+
+.juego {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding-top: 30px;
+	color: #000;
+	background-color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	cursor: help;
+	transition: 1s;
+	transition-delay: 0.1s;
+	background-image: url(img/signo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.juego1 {
+	display: block;;
+	text-align: center;
+	padding-top: 30px;
+	background: #fff;
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	cursor: help;
+	transition: 1s;
+	transition-delay: 0.1s;
+	background: #000;
+}
+
+.o {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: #000;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.verde {
+	background-image: url(img/verde.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.fail {
+	background-image: url(/img/fail.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.salida {
+	background-image: url('img/salida.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.footer {
+	margin: 40px auto 0 auto;
+	max-width: 100%;
+	padding: 20px;
+	background-color: #026873;
+}
+
+.footer h3 {
+	text-align: center;
+	font-size: 3vw;
+	color: #dfe8eb;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+	body {
+		margin: auto!important;
+		max-width: 1200px;
+	}
+
+	.header {
+		justify-content: center;
+	}
+
+	.texto h1 {
+		font-size: 6vw;
+		margin: 0 0 10px 0;
+	}
+	
+	.texto p {
+		margin-top: 40px;
+		font-size: 2vw;
+	}
+	
+}

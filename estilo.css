@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
+:root {
+	--principal: #024059;
+	--secundario: #026873;
+	--blanco: #dfe8eb;
+	--azulOscuro: #061123;
+	--colorOro: #ffe7a7;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -9,7 +17,7 @@
 
 body {
 	max-width: 100%;
-	background-color: #024059;
+	background-color: var(--principal);
 }
 
 img {
@@ -34,7 +42,7 @@ p {
 	justify-content: center;
 	margin-top: 20px;
 	line-height: 15px;
-	color: #dfe8eb;
+	color: var(--blanco);
 }
 
 .reglas img {
@@ -63,13 +71,13 @@ p {
 	max-width: 90%;
 	padding: 20px;
 	border-radius: 20px;
-	background-color: #026873;
+	background-color: var(--secundario);
 	margin-top: 10px;
 }
 
 .mensaje p {
 	font-size: 3vw;
-	color: #dfe8eb;
+	color: var(--blanco);
 }
 
 .flex-conteiner {
@@ -152,6 +160,31 @@ p {
 
 }
 
+.boton-container {
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.boton {
+	text-decoration: none;
+	border-width: 1px;
+	border: solid 2px var(--colorOro);
+	padding: 20px;
+	border-radius: 20px;
+	background-color: var(--azulOscuro);
+	color: var(--colorOro);
+	font-weight: 700;
+	transition: all 0.3s;
+}
+
+.boton:hover {
+	cursor: pointer;
+	border: solid 2px var(--azulOscuro);
+	color: var(--azulOscuro);
+	background-color: var(--colorOro);
+}
+
 .salida {
 	background-image: url(img/salida.jpg);
 	background-repeat: no-repeat;
@@ -163,13 +196,13 @@ p {
 	margin: 40px auto 0 auto;
 	max-width: 100%;
 	padding: 20px;
-	background-color: #026873;
+	background-color: var(--secundario);
 }
 
 .footer h3 {
 	text-align: center;
 	font-size: 3vw;
-	color: #dfe8eb;
+	color: var(--blanco);
 }
 
 
@@ -218,7 +251,7 @@ p {
 	.footer h3 {
 		text-align: center;
 		font-size: 1.5vw;
-		color: #dfe8eb;
+		color: var(--blanco);
 	}
 	
 }

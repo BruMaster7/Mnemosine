@@ -1,9 +1,15 @@
 # Mnemosine 🌟  
 [Live Demo](https://brumaster7.github.io/Mnemosine/)  
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/WjcjKmY" data-context="false" ><a href="//imgur.com/a/WjcjKmY"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
 Mnemosine is an elegant and efficient implementation of the A* (A-star) pathfinding algorithm, visualized beautifully using Vanilla JavaScript. Dive into the world of algorithms and witness how optimal paths are calculated dynamically on a grid.
+
+---
+
+## 🎨 Visual Highlights  
+
+![Mnemosine Visual Demo]([https://via.placeholder.com/800x400?text=Visualize+your+Algorithm+Here](https://i.imgur.com/WjcjKmY.png))
+![Mnemosine Visual Demo]([https://via.placeholder.com/800x400?text=Visualize+your+Algorithm+Here](https://i.imgur.com/r5bhjFS.png))
+![Mnemosine Visual Demo]([https://via.placeholder.com/800x400?text=Visualize+your+Algorithm+Here](https://i.imgur.com/cE8s15N.png))
 
 ---
 

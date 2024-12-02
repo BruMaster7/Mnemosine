@@ -7,9 +7,9 @@ Mnemosine is an elegant and efficient implementation of the A* (A-star) pathfind
 
 ## 🎨 Visual Highlights  
 <div align="center">
-   ![Mnemosine Visual Demo](https://i.imgur.com/WjcjKmY.png)
-   ![Mnemosine Visual Demo](https://i.imgur.com/r5bhjFS.png)
-   ![Mnemosine Visual Demo](https://i.imgur.com/cE8s15N.png)
+   <img src="https://i.imgur.com/WjcjKmY.png" alt="Mnemosine Visual Demo image 1"/>
+   <img src="https://i.imgur.com/r5bhjFS.png" alt="Mnemosine Visual Demo image 2"/>
+   <img src="https://i.imgur.com/cE8s15N.png" alt="Mnemosine Visual Demo image 3"/>
 </div>
 ---
 

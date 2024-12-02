@@ -13,14 +13,6 @@ Mnemosine is an elegant and efficient implementation of the A* (A-star) pathfind
 
 ---
 
-## 🎨 Visual Highlights  
-
-Mnemosine is designed to provide an intuitive and educational experience for users and developers alike. The matrix grid updates in real-time, showing the algorithm's decision-making process step-by-step.  
-
-![Mnemosine Visual Demo](https://via.placeholder.com/800x400?text=Visualize+your+Algorithm+Here)
-
----
-
 ## 🔧 Getting Started  
 
 ### 1️⃣ Clone the Repository  

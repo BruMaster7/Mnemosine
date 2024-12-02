@@ -55,7 +55,7 @@ git push origin feature-name
 ---
 
 ## 🌌 Inspiration
-Mnemosine is named after the Greek goddess of memory. This project aims to make the concepts of pathfinding algorithms memorable and accessible to all.
+Mnemosine is named after the Greek goddess of memory. This project aims to make the concept of pathfinding algorithms fun through a memory game.
 
 ## 💌 Contact
 For questions, suggestions, or just to say hi:

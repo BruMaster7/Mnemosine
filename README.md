@@ -15,7 +15,7 @@ Mnemosine is an elegant and efficient implementation of the A* (A-star) pathfind
 ---
 
 ## 🚀 Features  
-- **A* Algorithm**: Implements the heuristic-based A* algorithm for optimal pathfinding.  
+- **"A star" Algorithm**: Implements the heuristic-based A* algorithm for optimal pathfinding.  
 - **Dynamic Grid**: Interactive matrix visualization of the algorithm in action.  
 - **Pure JavaScript**: Built entirely with Vanilla JavaScript for performance and simplicity.  
 - **Customizable**: Easily extendable for different grid sizes and weights.  
